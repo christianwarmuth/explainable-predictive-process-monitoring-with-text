@@ -1,0 +1,17 @@
+[project]
+name = "Explainability for Process Data"
+author = "Christian Warmuth"
+
+[data]
+bpi17_xes           = ""        #TODO: Add path to BPI17 .xes Eventlog
+bpi17_pa            = ""        #TODO: Add path to BPI17 preprocessed dataset - see https://github.com/irhete/predictive-monitoring-benchmark
+lending_club_acc    = ""        #TODO: Add path to LendingClub Accepted dataset from kaggle
+lending_club_rej    = ""        #TODO: Add path to LendingClub Rejected dataset from kaggle
+synthetic           = ""        #TODO: Add path to augmented datasets
+word2vec            = ""        #TODO: Add path to pretrained word2vec vectors
+
+[result]
+results             = ""        #TODO: Add Path to Experiment Results from AWS runs
+
+[tool]
+mallet              = ""        #TODO: Add Path to MALLET binary
